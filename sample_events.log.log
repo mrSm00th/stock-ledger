@@ -1,0 +1,58 @@
+{"timestamp":"2026-01-01T09:00:01Z","event_type":"ProductCreated","product_id":"P100","data":{"name":"Laptop","price":50000}}
+{"timestamp":"2026-01-01T09:01:10Z","event_type":"ProductRestocked","product_id":"P100","data":{"quantity":10}}
+
+{"timestamp":"2026-01-01T09:02:05Z","event_type":"ProductSold","product_id":"P100","data":{"quantity":3}}
+{"timestamp":"2026-01-01T09:03:00Z","event_type":"ProductSold","product_id":"P100","data":{"quantity":20}}
+
+{"timestamp":"2026-01-01T09:04:12Z","event_type":"ProductCreated","product_id":"P100","data":{"name":"Laptop-Pro","price":70000}}
+
+{"timestamp":"2026-01-01T09:05:30Z","event_type":"ProductRestocked","product_id":"P200","data":{"quantity":5}}
+
+{"timestamp":"2026-01-01T09:06:45Z","event_type":"ProductCreated","product_id":"P200","data":{"name":"Mouse","price":1500}}
+{"timestamp":"2026-01-01T09:07:10Z","event_type":"ProductSold","product_id":"P200","data":{"quantity":2}}
+
+{"timestamp":"2026-01-01T09:08:00Z","event_type":"ProductDeactivated","product_id":"P200","data":{}}
+{"timestamp":"2026-01-01T09:08:30Z","event_type":"ProductSold","product_id":"P200","data":{"quantity":1}}
+
+{"timestamp":"2026-01-01T09:09:15Z","event_type":"ProductCreated","product_id":"P300","data":{"name":"Keyboard","price":3000}}
+{"timestamp":"2026-01-01T09:10:00Z","event_type":"ProductRestocked","product_id":"P300","data":{"quantity":-5}}
+
+{"timestamp":"2026-01-01T09:11:45Z","event_type":"ProductSold","product_id":"P300","data":{"quantity":0}}
+
+{"timestamp":"2026-01-01T09:12:30Z","event_type":"ProductDeactivated","product_id":"P999","data":{}}
+
+{"timestamp":"2026-01-01T09:13:00Z","event_type":"ProductCreated","product_id":"P400","data":{"name":"","price":2500}}
+
+{"timestamp":"2026-01-01T09:14:10Z","event_type":"ProductCreated","product_id":"P500","data":{"name":"Monitor","price":-12000}}
+
+{"timestamp":"2026-01-01T09:15:00Z","event_type":"ProductRestocked","product_id":"P500","data":{}}
+
+{"timestamp":"2026-01-01T09:16:30Z","event_type":"update_price","product_id":"P100","data":{"price":52000}}
+
+{"timestamp":"2026-01-01T09:17:45Z","event_type":"ProductSold","product_id":"P100","data":{"quantity":"five"}}
+
+{"timestamp":"2026-01-01T09:18:20Z","event_type":"ProductCreated","product_id":"P600","data":{"name":"Webcam","price":4000}}
+{"timestamp":"2026-01-01T09:19:00Z","event_type":"ProductRestocked","product_id":"P600","data":{"quantity":8}}
+{"timestamp":"2026-01-01T09:20:10Z","event_type":"ProductDeactivated","product_id":"P600","data":{}}
+{"timestamp":"2026-01-01T09:21:00Z","event_type":"ProductCreated","product_id":"P600","data":{"name":"Webcam-HD","price":6000}}
+
+{"timestamp":"2026-01-01T09:22:45Z","event_type":"unknown_event","product_id":"P700","data":{"foo":"bar"}}
+{"timestamp": "2026-02-03T17:02:04.835475+00:00", "event_type": "ProductCreated", "product_id": "P601", "data": {"name": "apple", "price": 140}}
+{"timestamp": "2026-02-03T17:02:32.031162+00:00", "event_type": "ProductRestocked", "product_id": "P601", "data": {"quantity": 100}}
+{"timestamp": "2026-02-03T17:02:44.544754+00:00", "event_type": "ProductSold", "product_id": "P601", "data": {"quantity": 100}}
+{"timestamp": "2026-02-03T17:03:26.142052+00:00", "event_type": "ProductDeactivated", "product_id": "P601", "data": {}}
+{"timestamp": "2026-02-03T17:04:54.709643+00:00", "event_type": "ProductCreated", "product_id": "P602", "data": {"name": "apple_juice", "price": 100}}
+{"timestamp": "2026-02-03T17:16:12.554708+00:00", "event_type": "ProductCreated", "product_id": "P603", "data": {"name": "apple", "price": 50}}
+{"timestamp": "2026-02-03T17:16:20.078148+00:00", "event_type": "ProductCreated", "product_id": "P604", "data": {"name": "banana", "price": 2}}
+{"timestamp": "2026-02-03T17:17:12.773318+00:00", "event_type": "ProductRestocked", "product_id": "P603", "data": {"quantity": 100}}
+{"timestamp": "2026-02-03T17:18:01.918382+00:00", "event_type": "ProductSold", "product_id": "P603", "data": {"quantity": 30}}
+{"timestamp": "2026-02-03T17:18:26.366386+00:00", "event_type": "ProductDeactivated", "product_id": "P603", "data": {}}
+{"timestamp": "2026-02-03T17:17:12.773318+00:00", "event_type": "ProductRestocked", "product_id": "P603", "data": {"quantity": 100}}
+
+{bad json}
+{"timestamp": "2026-02-03T17:20:16.433542+00:00", "event_type": "ProductCreated", "product_id": "P605", "data": {"name": "a", "price": 1}}
+{"timestamp": "2026-02-03T17:20:23.898888+00:00", "event_type": "ProductCreated", "product_id": "P606", "data": {"name": "b", "price": 2}}
+{"timestamp": "2026-02-03T17:20:42.254159+00:00", "event_type": "ProductCreated", "product_id": "P607", "data": {"name": "c", "price": 3}}
+{"timestamp": "2026-02-03T17:20:57.678692+00:00", "event_type": "ProductRestocked", "product_id": "P606", "data": {"quantity": 100}}
+{"timestamp": "2026-02-03T17:21:18.315243+00:00", "event_type": "ProductSold", "product_id": "P606", "data": {"quantity": 50}}
+{"timestamp": "2026-02-03T17:21:28.548896+00:00", "event_type": "ProductDeactivated", "product_id": "P606", "data": {}}
